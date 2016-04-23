@@ -2,26 +2,25 @@
 //  ViewController.swift
 //  SimpleFBLogin
 //
-//  Created by Derrick Chong on 4/21/16.
-//  Copyright © 2016 DerrickCorp. All rights reserved.
+//  Created by Wai loon Chong on 4/22/16.
+//  Copyright © 2016 derrickCorp. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController, FBSDKLoginButtonDelegate
-{
-    //outlet
+class ViewController: UIViewController, FBSDKLoginButtonDelegate {
+    
     @IBOutlet var btnFacebook: FBSDKLoginButton!
     @IBOutlet var ivUserProfileImage: UIImageView!
     @IBOutlet var lblName: UILabel!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         // Do any additional setup after loading the view, typically from a nib.
-        let objObjectiveCFile = ObjectiveCFile()
-        objObjectiveCFile.displayMessageFromCreatedObjectiveCFile()
-            
+        //configureFacebook()
+        
+        configureFacebook()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -29,13 +28,16 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate
         // Dispose of any resources that can be recreated.
     }
     
+    //configure facebook
     func configureFacebook()
     {
         btnFacebook.readPermissions = ["public_profile", "email", "user_friends"];
         btnFacebook.delegate = self
     }
     
+    //methods for FBSDKLoginButtonDelegate
     
+    //get facebook user data
     func loginButton(loginButton: FBSDKLoginButton!, didCompleteWithResult result: FBSDKLoginManagerLoginResult!, error: NSError!)
     {
         FBSDKGraphRequest.init(graphPath: "me", parameters: ["fields":"first_name, last_name, picture.type(large)"]).startWithCompletionHandler { (connection, result, error) -> Void in
@@ -49,6 +51,7 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate
         }
     }
     
+    //logout
     func loginButtonDidLogOut(loginButton: FBSDKLoginButton!)
     {
         let loginManager: FBSDKLoginManager = FBSDKLoginManager()
@@ -57,8 +60,5 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate
         ivUserProfileImage.image = nil
         lblName.text = ""
     }
-    
 }
-
-
 

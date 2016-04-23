@@ -2,8 +2,8 @@
 //  SimpleFBLoginUITests.swift
 //  SimpleFBLoginUITests
 //
-//  Created by Derrick Chong on 4/21/16.
-//  Copyright © 2016 DerrickCorp. All rights reserved.
+//  Created by Wai loon Chong on 4/22/16.
+//  Copyright © 2016 derrickCorp. All rights reserved.
 //
 
 import XCTest

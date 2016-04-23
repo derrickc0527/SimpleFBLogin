@@ -7,76 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		492F252C1CC9689C0028D428 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492F252B1CC9689C0028D428 /* AppDelegate.swift */; };
-		492F252E1CC9689C0028D428 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492F252D1CC9689C0028D428 /* ViewController.swift */; };
-		492F25311CC9689C0028D428 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492F252F1CC9689C0028D428 /* Main.storyboard */; };
-		492F25331CC9689C0028D428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492F25321CC9689C0028D428 /* Assets.xcassets */; };
-		492F25361CC9689C0028D428 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492F25341CC9689C0028D428 /* LaunchScreen.storyboard */; };
-		492F25411CC9689C0028D428 /* SimpleFBLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492F25401CC9689C0028D428 /* SimpleFBLoginTests.swift */; };
-		492F254C1CC9689C0028D428 /* SimpleFBLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492F254B1CC9689C0028D428 /* SimpleFBLoginUITests.swift */; };
-		492F255B1CC9691C0028D428 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 492F25591CC9691C0028D428 /* FBSDKCoreKit.framework */; };
-		492F255C1CC9691C0028D428 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 492F255A1CC9691C0028D428 /* FBSDKLoginKit.framework */; };
-		492F25681CC96B340028D428 /* FBIntegrationWithSwift.m in Sources */ = {isa = PBXBuildFile; fileRef = 492F25671CC96B340028D428 /* FBIntegrationWithSwift.m */; };
-		492F256B1CC9B1C00028D428 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 492F256A1CC9B1C00028D428 /* Default-568h@2x.png */; };
+		497DCC051CCAFC7C009C525A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497DCC041CCAFC7C009C525A /* AppDelegate.swift */; };
+		497DCC071CCAFC7C009C525A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497DCC061CCAFC7C009C525A /* ViewController.swift */; };
+		497DCC0A1CCAFC7C009C525A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497DCC081CCAFC7C009C525A /* Main.storyboard */; };
+		497DCC0C1CCAFC7C009C525A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 497DCC0B1CCAFC7C009C525A /* Assets.xcassets */; };
+		497DCC0F1CCAFC7C009C525A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497DCC0D1CCAFC7C009C525A /* LaunchScreen.storyboard */; };
+		497DCC1A1CCAFC7C009C525A /* SimpleFBLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497DCC191CCAFC7C009C525A /* SimpleFBLoginTests.swift */; };
+		497DCC251CCAFC7C009C525A /* SimpleFBLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497DCC241CCAFC7C009C525A /* SimpleFBLoginUITests.swift */; };
+		497DCC341CCAFCF2009C525A /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497DCC321CCAFCF2009C525A /* FBSDKCoreKit.framework */; };
+		497DCC351CCAFCF2009C525A /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497DCC331CCAFCF2009C525A /* FBSDKLoginKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		492F253D1CC9689C0028D428 /* PBXContainerItemProxy */ = {
+		497DCC161CCAFC7C009C525A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 492F25201CC9689C0028D428 /* Project object */;
+			containerPortal = 497DCBF91CCAFC7C009C525A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 492F25271CC9689C0028D428;
+			remoteGlobalIDString = 497DCC001CCAFC7C009C525A;
 			remoteInfo = SimpleFBLogin;
 		};
-		492F25481CC9689C0028D428 /* PBXContainerItemProxy */ = {
+		497DCC211CCAFC7C009C525A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 492F25201CC9689C0028D428 /* Project object */;
+			containerPortal = 497DCBF91CCAFC7C009C525A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 492F25271CC9689C0028D428;
+			remoteGlobalIDString = 497DCC001CCAFC7C009C525A;
 			remoteInfo = SimpleFBLogin;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		492F25281CC9689C0028D428 /* SimpleFBLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleFBLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		492F252B1CC9689C0028D428 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		492F252D1CC9689C0028D428 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		492F25301CC9689C0028D428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		492F25321CC9689C0028D428 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		492F25351CC9689C0028D428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		492F25371CC9689C0028D428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		492F253C1CC9689C0028D428 /* SimpleFBLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleFBLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		492F25401CC9689C0028D428 /* SimpleFBLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFBLoginTests.swift; sourceTree = "<group>"; };
-		492F25421CC9689C0028D428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		492F25471CC9689C0028D428 /* SimpleFBLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleFBLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		492F254B1CC9689C0028D428 /* SimpleFBLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFBLoginUITests.swift; sourceTree = "<group>"; };
-		492F254D1CC9689C0028D428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		492F25591CC9691C0028D428 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		492F255A1CC9691C0028D428 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		492F25661CC96B330028D428 /* SimpleFBLogin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleFBLogin-Bridging-Header.h"; sourceTree = "<group>"; };
-		492F25671CC96B340028D428 /* FBIntegrationWithSwift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBIntegrationWithSwift.m; sourceTree = "<group>"; };
-		492F25691CC96B570028D428 /* FBIntegrationWithSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBIntegrationWithSwift.h; sourceTree = "<group>"; };
-		492F256A1CC9B1C00028D428 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		497DCC011CCAFC7C009C525A /* SimpleFBLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleFBLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		497DCC041CCAFC7C009C525A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		497DCC061CCAFC7C009C525A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		497DCC091CCAFC7C009C525A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		497DCC0B1CCAFC7C009C525A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		497DCC0E1CCAFC7C009C525A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		497DCC101CCAFC7C009C525A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		497DCC151CCAFC7C009C525A /* SimpleFBLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleFBLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		497DCC191CCAFC7C009C525A /* SimpleFBLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFBLoginTests.swift; sourceTree = "<group>"; };
+		497DCC1B1CCAFC7C009C525A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		497DCC201CCAFC7C009C525A /* SimpleFBLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleFBLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		497DCC241CCAFC7C009C525A /* SimpleFBLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFBLoginUITests.swift; sourceTree = "<group>"; };
+		497DCC261CCAFC7C009C525A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		497DCC321CCAFCF2009C525A /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		497DCC331CCAFCF2009C525A /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		497DCC371CCB002B009C525A /* SimpleFBLogin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleFBLogin-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		492F25251CC9689C0028D428 /* Frameworks */ = {
+		497DCBFE1CCAFC7C009C525A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				492F255C1CC9691C0028D428 /* FBSDKLoginKit.framework in Frameworks */,
-				492F255B1CC9691C0028D428 /* FBSDKCoreKit.framework in Frameworks */,
+				497DCC351CCAFCF2009C525A /* FBSDKLoginKit.framework in Frameworks */,
+				497DCC341CCAFCF2009C525A /* FBSDKCoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		492F25391CC9689C0028D428 /* Frameworks */ = {
+		497DCC121CCAFC7C009C525A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		492F25441CC9689C0028D428 /* Frameworks */ = {
+		497DCC1D1CCAFC7C009C525A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -86,59 +81,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		492F251F1CC9689C0028D428 = {
+		497DCBF81CCAFC7C009C525A = {
 			isa = PBXGroup;
 			children = (
-				492F256A1CC9B1C00028D428 /* Default-568h@2x.png */,
-				492F25591CC9691C0028D428 /* FBSDKCoreKit.framework */,
-				492F255A1CC9691C0028D428 /* FBSDKLoginKit.framework */,
-				492F252A1CC9689C0028D428 /* SimpleFBLogin */,
-				492F253F1CC9689C0028D428 /* SimpleFBLoginTests */,
-				492F254A1CC9689C0028D428 /* SimpleFBLoginUITests */,
-				492F25291CC9689C0028D428 /* Products */,
+				497DCC321CCAFCF2009C525A /* FBSDKCoreKit.framework */,
+				497DCC331CCAFCF2009C525A /* FBSDKLoginKit.framework */,
+				497DCC031CCAFC7C009C525A /* SimpleFBLogin */,
+				497DCC181CCAFC7C009C525A /* SimpleFBLoginTests */,
+				497DCC231CCAFC7C009C525A /* SimpleFBLoginUITests */,
+				497DCC021CCAFC7C009C525A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		492F25291CC9689C0028D428 /* Products */ = {
+		497DCC021CCAFC7C009C525A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				492F25281CC9689C0028D428 /* SimpleFBLogin.app */,
-				492F253C1CC9689C0028D428 /* SimpleFBLoginTests.xctest */,
-				492F25471CC9689C0028D428 /* SimpleFBLoginUITests.xctest */,
+				497DCC011CCAFC7C009C525A /* SimpleFBLogin.app */,
+				497DCC151CCAFC7C009C525A /* SimpleFBLoginTests.xctest */,
+				497DCC201CCAFC7C009C525A /* SimpleFBLoginUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		492F252A1CC9689C0028D428 /* SimpleFBLogin */ = {
+		497DCC031CCAFC7C009C525A /* SimpleFBLogin */ = {
 			isa = PBXGroup;
 			children = (
-				492F252B1CC9689C0028D428 /* AppDelegate.swift */,
-				492F252D1CC9689C0028D428 /* ViewController.swift */,
-				492F252F1CC9689C0028D428 /* Main.storyboard */,
-				492F25321CC9689C0028D428 /* Assets.xcassets */,
-				492F25341CC9689C0028D428 /* LaunchScreen.storyboard */,
-				492F25371CC9689C0028D428 /* Info.plist */,
-				492F25671CC96B340028D428 /* FBIntegrationWithSwift.m */,
-				492F25661CC96B330028D428 /* SimpleFBLogin-Bridging-Header.h */,
-				492F25691CC96B570028D428 /* FBIntegrationWithSwift.h */,
+				497DCC041CCAFC7C009C525A /* AppDelegate.swift */,
+				497DCC061CCAFC7C009C525A /* ViewController.swift */,
+				497DCC081CCAFC7C009C525A /* Main.storyboard */,
+				497DCC0B1CCAFC7C009C525A /* Assets.xcassets */,
+				497DCC0D1CCAFC7C009C525A /* LaunchScreen.storyboard */,
+				497DCC101CCAFC7C009C525A /* Info.plist */,
+				497DCC371CCB002B009C525A /* SimpleFBLogin-Bridging-Header.h */,
 			);
 			path = SimpleFBLogin;
 			sourceTree = "<group>";
 		};
-		492F253F1CC9689C0028D428 /* SimpleFBLoginTests */ = {
+		497DCC181CCAFC7C009C525A /* SimpleFBLoginTests */ = {
 			isa = PBXGroup;
 			children = (
-				492F25401CC9689C0028D428 /* SimpleFBLoginTests.swift */,
-				492F25421CC9689C0028D428 /* Info.plist */,
+				497DCC191CCAFC7C009C525A /* SimpleFBLoginTests.swift */,
+				497DCC1B1CCAFC7C009C525A /* Info.plist */,
 			);
 			path = SimpleFBLoginTests;
 			sourceTree = "<group>";
 		};
-		492F254A1CC9689C0028D428 /* SimpleFBLoginUITests */ = {
+		497DCC231CCAFC7C009C525A /* SimpleFBLoginUITests */ = {
 			isa = PBXGroup;
 			children = (
-				492F254B1CC9689C0028D428 /* SimpleFBLoginUITests.swift */,
-				492F254D1CC9689C0028D428 /* Info.plist */,
+				497DCC241CCAFC7C009C525A /* SimpleFBLoginUITests.swift */,
+				497DCC261CCAFC7C009C525A /* Info.plist */,
 			);
 			path = SimpleFBLoginUITests;
 			sourceTree = "<group>";
@@ -146,13 +138,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		492F25271CC9689C0028D428 /* SimpleFBLogin */ = {
+		497DCC001CCAFC7C009C525A /* SimpleFBLogin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 492F25501CC9689C0028D428 /* Build configuration list for PBXNativeTarget "SimpleFBLogin" */;
+			buildConfigurationList = 497DCC291CCAFC7C009C525A /* Build configuration list for PBXNativeTarget "SimpleFBLogin" */;
 			buildPhases = (
-				492F25241CC9689C0028D428 /* Sources */,
-				492F25251CC9689C0028D428 /* Frameworks */,
-				492F25261CC9689C0028D428 /* Resources */,
+				497DCBFD1CCAFC7C009C525A /* Sources */,
+				497DCBFE1CCAFC7C009C525A /* Frameworks */,
+				497DCBFF1CCAFC7C009C525A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -160,69 +152,69 @@
 			);
 			name = SimpleFBLogin;
 			productName = SimpleFBLogin;
-			productReference = 492F25281CC9689C0028D428 /* SimpleFBLogin.app */;
+			productReference = 497DCC011CCAFC7C009C525A /* SimpleFBLogin.app */;
 			productType = "com.apple.product-type.application";
 		};
-		492F253B1CC9689C0028D428 /* SimpleFBLoginTests */ = {
+		497DCC141CCAFC7C009C525A /* SimpleFBLoginTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 492F25531CC9689C0028D428 /* Build configuration list for PBXNativeTarget "SimpleFBLoginTests" */;
+			buildConfigurationList = 497DCC2C1CCAFC7C009C525A /* Build configuration list for PBXNativeTarget "SimpleFBLoginTests" */;
 			buildPhases = (
-				492F25381CC9689C0028D428 /* Sources */,
-				492F25391CC9689C0028D428 /* Frameworks */,
-				492F253A1CC9689C0028D428 /* Resources */,
+				497DCC111CCAFC7C009C525A /* Sources */,
+				497DCC121CCAFC7C009C525A /* Frameworks */,
+				497DCC131CCAFC7C009C525A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				492F253E1CC9689C0028D428 /* PBXTargetDependency */,
+				497DCC171CCAFC7C009C525A /* PBXTargetDependency */,
 			);
 			name = SimpleFBLoginTests;
 			productName = SimpleFBLoginTests;
-			productReference = 492F253C1CC9689C0028D428 /* SimpleFBLoginTests.xctest */;
+			productReference = 497DCC151CCAFC7C009C525A /* SimpleFBLoginTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		492F25461CC9689C0028D428 /* SimpleFBLoginUITests */ = {
+		497DCC1F1CCAFC7C009C525A /* SimpleFBLoginUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 492F25561CC9689C0028D428 /* Build configuration list for PBXNativeTarget "SimpleFBLoginUITests" */;
+			buildConfigurationList = 497DCC2F1CCAFC7C009C525A /* Build configuration list for PBXNativeTarget "SimpleFBLoginUITests" */;
 			buildPhases = (
-				492F25431CC9689C0028D428 /* Sources */,
-				492F25441CC9689C0028D428 /* Frameworks */,
-				492F25451CC9689C0028D428 /* Resources */,
+				497DCC1C1CCAFC7C009C525A /* Sources */,
+				497DCC1D1CCAFC7C009C525A /* Frameworks */,
+				497DCC1E1CCAFC7C009C525A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				492F25491CC9689C0028D428 /* PBXTargetDependency */,
+				497DCC221CCAFC7C009C525A /* PBXTargetDependency */,
 			);
 			name = SimpleFBLoginUITests;
 			productName = SimpleFBLoginUITests;
-			productReference = 492F25471CC9689C0028D428 /* SimpleFBLoginUITests.xctest */;
+			productReference = 497DCC201CCAFC7C009C525A /* SimpleFBLoginUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		492F25201CC9689C0028D428 /* Project object */ = {
+		497DCBF91CCAFC7C009C525A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = DerrickCorp;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = derrickCorp;
 				TargetAttributes = {
-					492F25271CC9689C0028D428 = {
-						CreatedOnToolsVersion = 7.3;
+					497DCC001CCAFC7C009C525A = {
+						CreatedOnToolsVersion = 7.2;
 					};
-					492F253B1CC9689C0028D428 = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = 492F25271CC9689C0028D428;
+					497DCC141CCAFC7C009C525A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 497DCC001CCAFC7C009C525A;
 					};
-					492F25461CC9689C0028D428 = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = 492F25271CC9689C0028D428;
+					497DCC1F1CCAFC7C009C525A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 497DCC001CCAFC7C009C525A;
 					};
 				};
 			};
-			buildConfigurationList = 492F25231CC9689C0028D428 /* Build configuration list for PBXProject "SimpleFBLogin" */;
+			buildConfigurationList = 497DCBFC1CCAFC7C009C525A /* Build configuration list for PBXProject "SimpleFBLogin" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -230,38 +222,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 492F251F1CC9689C0028D428;
-			productRefGroup = 492F25291CC9689C0028D428 /* Products */;
+			mainGroup = 497DCBF81CCAFC7C009C525A;
+			productRefGroup = 497DCC021CCAFC7C009C525A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				492F25271CC9689C0028D428 /* SimpleFBLogin */,
-				492F253B1CC9689C0028D428 /* SimpleFBLoginTests */,
-				492F25461CC9689C0028D428 /* SimpleFBLoginUITests */,
+				497DCC001CCAFC7C009C525A /* SimpleFBLogin */,
+				497DCC141CCAFC7C009C525A /* SimpleFBLoginTests */,
+				497DCC1F1CCAFC7C009C525A /* SimpleFBLoginUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		492F25261CC9689C0028D428 /* Resources */ = {
+		497DCBFF1CCAFC7C009C525A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				492F25361CC9689C0028D428 /* LaunchScreen.storyboard in Resources */,
-				492F256B1CC9B1C00028D428 /* Default-568h@2x.png in Resources */,
-				492F25331CC9689C0028D428 /* Assets.xcassets in Resources */,
-				492F25311CC9689C0028D428 /* Main.storyboard in Resources */,
+				497DCC0F1CCAFC7C009C525A /* LaunchScreen.storyboard in Resources */,
+				497DCC0C1CCAFC7C009C525A /* Assets.xcassets in Resources */,
+				497DCC0A1CCAFC7C009C525A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		492F253A1CC9689C0028D428 /* Resources */ = {
+		497DCC131CCAFC7C009C525A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		492F25451CC9689C0028D428 /* Resources */ = {
+		497DCC1E1CCAFC7C009C525A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -271,60 +262,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		492F25241CC9689C0028D428 /* Sources */ = {
+		497DCBFD1CCAFC7C009C525A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				492F252E1CC9689C0028D428 /* ViewController.swift in Sources */,
-				492F252C1CC9689C0028D428 /* AppDelegate.swift in Sources */,
-				492F25681CC96B340028D428 /* FBIntegrationWithSwift.m in Sources */,
+				497DCC071CCAFC7C009C525A /* ViewController.swift in Sources */,
+				497DCC051CCAFC7C009C525A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		492F25381CC9689C0028D428 /* Sources */ = {
+		497DCC111CCAFC7C009C525A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				492F25411CC9689C0028D428 /* SimpleFBLoginTests.swift in Sources */,
+				497DCC1A1CCAFC7C009C525A /* SimpleFBLoginTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		492F25431CC9689C0028D428 /* Sources */ = {
+		497DCC1C1CCAFC7C009C525A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				492F254C1CC9689C0028D428 /* SimpleFBLoginUITests.swift in Sources */,
+				497DCC251CCAFC7C009C525A /* SimpleFBLoginUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		492F253E1CC9689C0028D428 /* PBXTargetDependency */ = {
+		497DCC171CCAFC7C009C525A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 492F25271CC9689C0028D428 /* SimpleFBLogin */;
-			targetProxy = 492F253D1CC9689C0028D428 /* PBXContainerItemProxy */;
+			target = 497DCC001CCAFC7C009C525A /* SimpleFBLogin */;
+			targetProxy = 497DCC161CCAFC7C009C525A /* PBXContainerItemProxy */;
 		};
-		492F25491CC9689C0028D428 /* PBXTargetDependency */ = {
+		497DCC221CCAFC7C009C525A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 492F25271CC9689C0028D428 /* SimpleFBLogin */;
-			targetProxy = 492F25481CC9689C0028D428 /* PBXContainerItemProxy */;
+			target = 497DCC001CCAFC7C009C525A /* SimpleFBLogin */;
+			targetProxy = 497DCC211CCAFC7C009C525A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		492F252F1CC9689C0028D428 /* Main.storyboard */ = {
+		497DCC081CCAFC7C009C525A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				492F25301CC9689C0028D428 /* Base */,
+				497DCC091CCAFC7C009C525A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		492F25341CC9689C0028D428 /* LaunchScreen.storyboard */ = {
+		497DCC0D1CCAFC7C009C525A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				492F25351CC9689C0028D428 /* Base */,
+				497DCC0E1CCAFC7C009C525A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -332,11 +322,10 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		492F254E1CC9689C0028D428 /* Debug */ = {
+		497DCC271CCAFC7C009C525A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -369,19 +358,19 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		492F254F1CC9689C0028D428 /* Release */ = {
+		497DCC281CCAFC7C009C525A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -408,133 +397,128 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		492F25511CC9689C0028D428 /* Debug */ = {
+		497DCC2A1CCAFC7C009C525A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/Derrick/Documents/FacebookSDK,
-					"$(PROJECT_DIR)/SimpleFBLogin",
-				);
+				FRAMEWORK_SEARCH_PATHS = /Users/Derrick/Documents/FacebookSDK;
 				INFOPLIST_FILE = SimpleFBLogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.derrickcorp.SimpleFBLogin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.derrickCorp.SimpleFBLogin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SimpleFBLogin/SimpleFBLogin-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		492F25521CC9689C0028D428 /* Release */ = {
+		497DCC2B1CCAFC7C009C525A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/Derrick/Documents/FacebookSDK,
-					"$(PROJECT_DIR)/SimpleFBLogin",
-				);
+				FRAMEWORK_SEARCH_PATHS = /Users/Derrick/Documents/FacebookSDK;
 				INFOPLIST_FILE = SimpleFBLogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.derrickcorp.SimpleFBLogin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.derrickCorp.SimpleFBLogin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SimpleFBLogin/SimpleFBLogin-Bridging-Header.h";
 			};
 			name = Release;
 		};
-		492F25541CC9689C0028D428 /* Debug */ = {
+		497DCC2D1CCAFC7C009C525A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SimpleFBLoginTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.derrickcorp.SimpleFBLoginTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.derrickCorp.SimpleFBLoginTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleFBLogin.app/SimpleFBLogin";
 			};
 			name = Debug;
 		};
-		492F25551CC9689C0028D428 /* Release */ = {
+		497DCC2E1CCAFC7C009C525A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SimpleFBLoginTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.derrickcorp.SimpleFBLoginTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.derrickCorp.SimpleFBLoginTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleFBLogin.app/SimpleFBLogin";
 			};
 			name = Release;
 		};
-		492F25571CC9689C0028D428 /* Debug */ = {
+		497DCC301CCAFC7C009C525A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = SimpleFBLoginUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.derrickcorp.SimpleFBLoginUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.derrickCorp.SimpleFBLoginUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = SimpleFBLogin;
+				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
 		};
-		492F25581CC9689C0028D428 /* Release */ = {
+		497DCC311CCAFC7C009C525A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = SimpleFBLoginUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.derrickcorp.SimpleFBLoginUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.derrickCorp.SimpleFBLoginUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = SimpleFBLogin;
+				USES_XCTRUNNER = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		492F25231CC9689C0028D428 /* Build configuration list for PBXProject "SimpleFBLogin" */ = {
+		497DCBFC1CCAFC7C009C525A /* Build configuration list for PBXProject "SimpleFBLogin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				492F254E1CC9689C0028D428 /* Debug */,
-				492F254F1CC9689C0028D428 /* Release */,
+				497DCC271CCAFC7C009C525A /* Debug */,
+				497DCC281CCAFC7C009C525A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		492F25501CC9689C0028D428 /* Build configuration list for PBXNativeTarget "SimpleFBLogin" */ = {
+		497DCC291CCAFC7C009C525A /* Build configuration list for PBXNativeTarget "SimpleFBLogin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				492F25511CC9689C0028D428 /* Debug */,
-				492F25521CC9689C0028D428 /* Release */,
+				497DCC2A1CCAFC7C009C525A /* Debug */,
+				497DCC2B1CCAFC7C009C525A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		492F25531CC9689C0028D428 /* Build configuration list for PBXNativeTarget "SimpleFBLoginTests" */ = {
+		497DCC2C1CCAFC7C009C525A /* Build configuration list for PBXNativeTarget "SimpleFBLoginTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				492F25541CC9689C0028D428 /* Debug */,
-				492F25551CC9689C0028D428 /* Release */,
+				497DCC2D1CCAFC7C009C525A /* Debug */,
+				497DCC2E1CCAFC7C009C525A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		492F25561CC9689C0028D428 /* Build configuration list for PBXNativeTarget "SimpleFBLoginUITests" */ = {
+		497DCC2F1CCAFC7C009C525A /* Build configuration list for PBXNativeTarget "SimpleFBLoginUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				492F25571CC9689C0028D428 /* Debug */,
-				492F25581CC9689C0028D428 /* Release */,
+				497DCC301CCAFC7C009C525A /* Debug */,
+				497DCC311CCAFC7C009C525A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 492F25201CC9689C0028D428 /* Project object */;
+	rootObject = 497DCBF91CCAFC7C009C525A /* Project object */;
 }
